@@ -10,17 +10,17 @@ namespace presistance.Context
 {
     
     
-        public class MenuDbContextFactory : IDesignTimeDbContextFactory<MenuDbContext>
-        {
-            public MenuDbContext CreateDbContext(string[] args)
-            {
-                var optionsBuilder = new DbContextOptionsBuilder<MenuDbContext>();
+        //public class MenuDbContextFactory : IDesignTimeDbContextFactory<MenuDbContext>
+        //{
+        //    public MenuDbContext CreateDbContext(string[] args)
+        //    {
+        //        var optionsBuilder = new DbContextOptionsBuilder<MenuDbContext>();
 
-                // ⚠️ این connection string رو با مال خودت جایگزین کن
-                optionsBuilder.UseSqlServer("Server=.;Database=MenuDb;Trusted_Connection=True;TrustServerCertificate=True;");
+        //        // ⚠️ این connection string رو با مال خودت جایگزین کن
+        //        optionsBuilder.UseSqlServer("Server=.;Database=MenuDb;Trusted_Connection=True;TrustServerCertificate=True;");
 
-                return new MenuDbContext(optionsBuilder.Options);
-            }
-        }
+        //        return new MenuDbContext(optionsBuilder.Options);
+        //    }
+        //}
     }
 

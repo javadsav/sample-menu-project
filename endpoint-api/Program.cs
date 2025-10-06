@@ -16,9 +16,21 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMenuDbContext, MenuDbContext>();
 builder.Services.AddScoped<IFoodService, FoodService>();
 builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefoultConnection")));
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        policy =>
+        {
+            policy.AllowAnyOrigin()
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
 
 
 var app = builder.Build();
+app.UseCors("AllowAll");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -12,5 +12,8 @@ namespace application.Interfaces
     {
         public DbSet<Food> Foods { get; set; }
         public DbSet<Category> Categories { get; set; }
+
+        int SaveChanges();
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

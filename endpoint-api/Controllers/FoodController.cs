@@ -1,4 +1,5 @@
 ﻿using application.services.food;
+using application.services.food.Dtos;
 using domain.entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -29,9 +30,9 @@ namespace endpoint_api.Controllers
             return Ok(food);
         }
         [HttpPost]
-        public IActionResult AddFood()
+        public IActionResult AddFood(addfooddto Addfooddto)
         {
-            var food = new Food();
+            var food = _foodService.AddFood(Addfooddto);
             return Ok(food);
         }
     }

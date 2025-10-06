@@ -11,6 +11,7 @@ namespace application.services.food
 {
     public interface IFoodService
     {
+        public Food AddFood(addfooddto addfooddto);
         public List<Food> GetFoods();
         public Food GetFoodsByid(int id);
     }
@@ -37,17 +38,19 @@ namespace application.services.food
             return food;
         
         }
-        public Food AddFood(addfooddto Addfooddto) 
-        {
-            var addfood = new Food()
+            public Food AddFood(addfooddto Addfooddto) 
             {
-                Name = Addfooddto.Name, 
-                CategoryId = Addfooddto.CategoryId,
-                Price = Addfooddto.Price,
+                var addfood = new Food()
+                {
+                    Name = Addfooddto.Name, 
+                    CategoryId = Addfooddto.CategoryId,
+                    Price = Addfooddto.Price,
 
-            };
-            _menuDbContext.Foods.Add(addfood);
-            return addfood;
+                };
+                _menuDbContext.Foods.Add(addfood);
+            _menuDbContext.SaveChanges();
+            
+                return addfood;
 
 
         }

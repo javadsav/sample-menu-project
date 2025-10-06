@@ -35,7 +35,7 @@ namespace presistance.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("domain.entities.Food", b =>
@@ -60,7 +60,7 @@ namespace presistance.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Foods");
+                    b.ToTable("Foods", (string)null);
                 });
 
             modelBuilder.Entity("domain.entities.Food", b =>

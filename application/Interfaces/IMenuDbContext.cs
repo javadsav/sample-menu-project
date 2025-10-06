@@ -1,5 +1,4 @@
-﻿using application.Interfaces;
-using domain.entities;
+﻿using domain.entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -7,15 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace presistance.Context
+namespace application.Interfaces
 {
-    public class MenuDbContext : DbContext , IMenuDbContext
+    public interface IMenuDbContext
     {
-        public MenuDbContext(DbContextOptions<MenuDbContext> options) : base(options)
-        {
-
-        }
         public DbSet<Food> Foods { get; set; }
         public DbSet<Category> Categories { get; set; }
     }

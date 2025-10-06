@@ -12,7 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefoultConnection")));
+builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 var app = builder.Build();

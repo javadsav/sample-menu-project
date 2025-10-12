@@ -18,7 +18,7 @@ namespace endpoint_api.Controllers
         [HttpGet]
         public IActionResult GetAllcategories() 
         { 
-            return Ok(_categoryService.GetCategories);
+            return Ok(_categoryService.GetCategories());
         }
         [HttpGet("{id}")]
         public IActionResult GetCategoryByid(int id) 
@@ -43,8 +43,15 @@ namespace endpoint_api.Controllers
             var upcategory = _categoryService.UpdatateCategory(id,UpdatecategoryDto);
             return Ok(upcategory);
         }
+        [HttpDelete]
+        public IActionResult DeleteCategory(int id)
+        {
+            var delcategory = _categoryService.deleteCategory(id);  
+            return Ok(delcategory);
+        }
 
         }
+    
     }
     
 

@@ -15,7 +15,8 @@ namespace application.services.category
         public List<Category> GetCategories();
         public Category GetCategoriesByid(int id);
         public Category AddCategory(addcategoryDto AddcategoryDto);
-        public Category UpdatateCategory(int id,updatecategoryDto UpdatateCategoryDto);
+        public Category UpdatateCategory(int id, updatecategoryDto UpdatateCategoryDto);
+        public Category deleteCategory(int id);
 
     }
     public class CategoryService : ICategoryService
@@ -45,7 +46,7 @@ namespace application.services.category
         {
             var newcategory = new Category()
             {
-                Id = AddcategoryDto.Id,
+                
                 Name = AddcategoryDto.Name,
             };
             _menuDbContext.Categories.Add(newcategory);
@@ -62,7 +63,6 @@ namespace application.services.category
             }
 
             upcategory.Name = UpdatateCategoryDto.Name;
-            upcategory.Id = UpdatateCategoryDto.Id;
                 
             _menuDbContext.SaveChanges();
             return upcategory;

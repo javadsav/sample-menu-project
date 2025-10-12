@@ -8,7 +8,6 @@ namespace application.services.category.Dtos
 {
     public class addcategoryDto
     {
-        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

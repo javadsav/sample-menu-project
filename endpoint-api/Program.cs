@@ -1,6 +1,7 @@
 
 
 using application.Interfaces;
+using application.services.category;
 using application.services.food;
 using Microsoft.EntityFrameworkCore;
 using presistance.Context;
@@ -15,7 +16,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMenuDbContext, MenuDbContext>();
 builder.Services.AddScoped<IFoodService, FoodService>();
-builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefoultConnection")));
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",

@@ -35,5 +35,19 @@ namespace endpoint_api.Controllers
             var food = _foodService.AddFood(Addfooddto);
             return Ok(food);
         }
+        [HttpPut("{id}")]
+        public IActionResult Updatefood(int id, updatefoodDto UpdatefoodDto)
+        {
+            var upfood = _foodService.Updatefood(id, UpdatefoodDto); 
+            return Ok(upfood);
+        }
+        [HttpDelete]
+        public IActionResult Deletefood(int id) 
+        {
+            var deletFood = _foodService.Deletefood(id);
+            return Ok(deletFood);
+        }
+
+
     }
 }

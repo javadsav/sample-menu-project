@@ -30,22 +30,22 @@ namespace application.services.food
         {
             var foods = _menuDbContext.Foods
                 .Include(x => x.Category).ToList();
-            List<addfooddto> addfoodlist = new List<addfooddto>();
-            foreach (var item in foods) 
-            {
-                var newdto = new addfooddto();
-                newdto.picture = item.picture;
-                newdto.Name = item.Name;
-                newdto.Description = item.Description;
-                newdto.Price = item.Price;
-                newdto.CategoryName = item.CategoryName;
-                //newdto.CategoryId = item.CategoryId;
+            //List<addfooddto> addfoodlist = new List<addfooddto>();
+            //foreach (var item in foods) 
+            //{
+            //    var newdto = new addfooddto();
+            //    newdto.picture = item.picture;
+            //    newdto.Name = item.Name;
+            //    newdto.Description = item.Description;
+            //    newdto.Price = item.Price;
+            //   // newdto.CategoryName = item.CategoryName;
+            //    newdto.CategoryId = item.CategoryId;
 
 
                 
 
-                addfoodlist.Add(newdto);
-            }
+            //    addfoodlist.Add(newdto);
+            //}
             return foods;
         }
         public Food GetFoodsByid(int id) 
@@ -63,10 +63,10 @@ namespace application.services.food
                 var addfood = new Food()
                 {
                     Name = Addfooddto.Name,
-                    //CategoryId = Addfooddto.CategoryId,
+                    CategoryId = Addfooddto.CategoryId,
                     Price = Addfooddto.Price,
                     picture =Addfooddto.picture,
-                    CategoryName = Addfooddto.CategoryName,
+                    //CategoryName = Addfooddto.CategoryName,
                     vegeterian = Addfooddto.vegeterian,
                     Description = Addfooddto.Description,
 
@@ -91,8 +91,8 @@ namespace application.services.food
             upfood.picture  = UpdatefoodDto.picture;
             upfood.Description = UpdatefoodDto.Description;
             upfood.vegeterian = UpdatefoodDto.vegeterian;
-           //upfood.CategoryId = UpdatefoodDto.CategoryId;
-            upfood.CategoryName = UpdatefoodDto.CategoryName;
+           upfood.CategoryId = UpdatefoodDto.CategoryId;
+            //upfood.CategoryName = UpdatefoodDto.CategoryName;
             _menuDbContext.SaveChanges();
             return upfood;
 

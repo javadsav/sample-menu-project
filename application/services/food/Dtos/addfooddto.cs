@@ -14,6 +14,6 @@ namespace application.services.food.Dtos
         public string Description { get; set; }
         public bool vegeterian { get; set; }
         public int CategoryId {  get; set; }
-        public string CategoryName { get; set; }
+        //public string CategoryName { get; set; }
     }
 }

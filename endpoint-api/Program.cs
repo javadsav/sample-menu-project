@@ -3,6 +3,8 @@
 using application.Interfaces;
 using application.services.category;
 using application.services.food;
+using application.services.order;
+using application.services.orderDetail;
 using Microsoft.EntityFrameworkCore;
 using presistance.Context;
 
@@ -17,6 +19,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMenuDbContext, MenuDbContext>();
 builder.Services.AddScoped<IFoodService, FoodService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();  
 builder.Services.AddDbContext<MenuDbContext>(Options => Options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
 {

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace application.services.food.Dtos
 {
-    internal class foodDto
+    public class foodDto
     {
+        public string picture { get; set; }
+        public string Name { get; set; }
+        public decimal Price { get; set; }
+        public string Description { get; set; }
+        public bool vegeterian { get; set; }
+
+        public int CategoryId { get; set; }
     }
 }

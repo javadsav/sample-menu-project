@@ -13,7 +13,7 @@ namespace application.services.food
     public interface IFoodService
     {
         public Food AddFood(addfooddto addfooddto);
-        public List<Food> GetFoods();
+        public List<foodDto> GetFoods();
         public Food GetFoodsByid(int id);
         public Food Updatefood(int id, updatefoodDto updatefoodDto);
         public Food Deletefood(int id);
@@ -26,27 +26,27 @@ namespace application.services.food
         {
             _menuDbContext = menuDbContext;
         }
-        public List<Food> GetFoods()
+        public List<foodDto> GetFoods()
         {
             var foods = _menuDbContext.Foods
                 .Include(x => x.Category).ToList();
-            //List<addfooddto> addfoodlist = new List<addfooddto>();
-            //foreach (var item in foods) 
-            //{
-            //    var newdto = new addfooddto();
-            //    newdto.picture = item.picture;
-            //    newdto.Name = item.Name;
-            //    newdto.Description = item.Description;
-            //    newdto.Price = item.Price;
-            //   // newdto.CategoryName = item.CategoryName;
-            //    newdto.CategoryId = item.CategoryId;
+            List<foodDto> addfoodlist = new List<foodDto>();
+            foreach (var item in foods)
+            {
+                var newdto = new foodDto();
+                newdto.picture = item.picture;
+                newdto.Name = item.Name;
+                newdto.Description = item.Description;
+                newdto.Price = item.Price;
+                // newdto.categoryname = item.categoryname;
+                newdto.CategoryId = item.CategoryId;
 
 
-                
 
-            //    addfoodlist.Add(newdto);
-            //}
-            return foods;
+
+                addfoodlist.Add(newdto);
+            }
+            return addfoodlist;
         }
         public Food GetFoodsByid(int id) 
         {

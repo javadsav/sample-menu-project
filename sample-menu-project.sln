@@ -3,6 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< Updated upstream
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{61CF066C-8486-40A3-BDBC-35B3EDF0F67F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{9A9A50A1-C343-417F-AA33-89FA9648D7F5}"
@@ -22,6 +23,29 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "application", "application\application.csproj", "{04C08E74-4C43-40FB-9264-DA65236FD75D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "endpoint-api", "endpoint-api\endpoint-api.csproj", "{DB516200-5442-4242-8B74-E4A2747A7AC9}"
+=======
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{90FB972D-49C3-4ECB-9A23-B47546BB2D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{928656F9-E82D-49E8-B6B9-9AA8AC23EB33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{69F7E7DE-CF02-46A0-9D07-B444D8FF5986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{98410684-0F1E-4FF3-8D3E-8B27A423CD87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{39BAE176-5F32-441B-995C-06ABE55BF422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.common", "sample-menu-project.common\sample-menu-project.common.csproj", "{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.application", "sample-menu-project.application\sample-menu-project.application.csproj", "{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.infrastructure", "sample-menu-project.infrastructure\sample-menu-project.infrastructure.csproj", "{60DCF17C-9EF9-446B-B371-A21CD26ACF49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.domain", "sample-menu-project.domain\sample-menu-project.domain.csproj", "{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.persistence", "sample-menu-project.persistence\sample-menu-project.persistence.csproj", "{DDEA36A9-26D7-4AF7-A396-71CB36A61663}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample-menu-project.Endpoint-api", "sample-menu-project.Endpoint-api\sample-menu-project.Endpoint-api.csproj", "{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D}"
+>>>>>>> Stashed changes
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +53,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< Updated upstream
 		{4FD444EA-8E42-434F-9289-302476F03215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FD444EA-8E42-434F-9289-302476F03215}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD444EA-8E42-434F-9289-302476F03215}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -53,11 +78,38 @@ Global
 		{DB516200-5442-4242-8B74-E4A2747A7AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB516200-5442-4242-8B74-E4A2747A7AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB516200-5442-4242-8B74-E4A2747A7AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+=======
+		{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DCF17C-9EF9-446B-B371-A21CD26ACF49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DCF17C-9EF9-446B-B371-A21CD26ACF49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DCF17C-9EF9-446B-B371-A21CD26ACF49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DCF17C-9EF9-446B-B371-A21CD26ACF49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEA36A9-26D7-4AF7-A396-71CB36A61663}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEA36A9-26D7-4AF7-A396-71CB36A61663}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEA36A9-26D7-4AF7-A396-71CB36A61663}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEA36A9-26D7-4AF7-A396-71CB36A61663}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> Stashed changes
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+<<<<<<< Updated upstream
 		{9A9A50A1-C343-417F-AA33-89FA9648D7F5} = {61CF066C-8486-40A3-BDBC-35B3EDF0F67F}
 		{31342389-E87E-4A07-8BDB-544D2CAD066D} = {61CF066C-8486-40A3-BDBC-35B3EDF0F67F}
 		{9B420870-F89E-466B-B860-0C26ECCED875} = {61CF066C-8486-40A3-BDBC-35B3EDF0F67F}
@@ -70,5 +122,19 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {20E65427-4EF0-43D4-AB75-1BC35E1D3C6C}
+=======
+		{69F7E7DE-CF02-46A0-9D07-B444D8FF5986} = {928656F9-E82D-49E8-B6B9-9AA8AC23EB33}
+		{98410684-0F1E-4FF3-8D3E-8B27A423CD87} = {928656F9-E82D-49E8-B6B9-9AA8AC23EB33}
+		{39BAE176-5F32-441B-995C-06ABE55BF422} = {928656F9-E82D-49E8-B6B9-9AA8AC23EB33}
+		{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4} = {69F7E7DE-CF02-46A0-9D07-B444D8FF5986}
+		{D97E482F-05E8-4C81-B6CF-425FDC8F8D70} = {98410684-0F1E-4FF3-8D3E-8B27A423CD87}
+		{60DCF17C-9EF9-446B-B371-A21CD26ACF49} = {98410684-0F1E-4FF3-8D3E-8B27A423CD87}
+		{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6} = {98410684-0F1E-4FF3-8D3E-8B27A423CD87}
+		{DDEA36A9-26D7-4AF7-A396-71CB36A61663} = {98410684-0F1E-4FF3-8D3E-8B27A423CD87}
+		{A01EC7C1-8C47-44D2-94A2-37EEEF53FD4D} = {39BAE176-5F32-441B-995C-06ABE55BF422}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E411968-C42F-496B-8DE3-43075BC10D5A}
+>>>>>>> Stashed changes
 	EndGlobalSection
 EndGlobal

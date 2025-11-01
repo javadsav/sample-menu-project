@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>sample_menu_project.Endpoint_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sample-menu-project.application\sample-menu-project.application.csproj" />
+    <ProjectReference Include="..\sample-menu-project.infrastructure\sample-menu-project.infrastructure.csproj" />
+    <ProjectReference Include="..\sample-menu-project.persistence\sample-menu-project.persistence.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj",
+        "projectName": "sample-menu-project.domain",
+        "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj",
+        "packagesPath": "C:\\Users\\Javad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Javad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj",
+        "projectName": "sample-menu-project.infrastructure",
+        "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Javad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Javad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj": {
+                "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj"
+              },
+              "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj": {
+                "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+        "projectName": "sample-menu-project.persistence",
+        "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+        "packagesPath": "C:\\Users\\Javad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Javad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj": {
+                "projectPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

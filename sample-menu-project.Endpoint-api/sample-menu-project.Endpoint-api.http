@@ -1,0 +1,6 @@
+@sample_menu_project.Endpoint_api_HostAddress = http://localhost:5161
+
+GET {{sample_menu_project.Endpoint_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

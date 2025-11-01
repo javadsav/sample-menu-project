@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}|sample-menu-project.domain\\sample-menu-project.domain.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}|sample-menu-project.domain\\sample-menu-project.domain.csproj|solutionrelative:sample-menu-project.domain\\sample-menu-project.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}|sample-menu-project.application\\sample-menu-project.application.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.application\\services\\category\\getcategorybyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D97E482F-05E8-4C81-B6CF-425FDC8F8D70}|sample-menu-project.application\\sample-menu-project.application.csproj|solutionrelative:sample-menu-project.application\\services\\category\\getcategorybyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}|sample-menu-project.domain\\sample-menu-project.domain.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1914A2-5C55-4F6D-9D41-2E75DBA94AA6}|sample-menu-project.domain\\sample-menu-project.domain.csproj|solutionrelative:sample-menu-project.domain\\entites\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEA36A9-26D7-4AF7-A396-71CB36A61663}|sample-menu-project.persistence\\sample-menu-project.persistence.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DDEA36A9-26D7-4AF7-A396-71CB36A61663}|sample-menu-project.persistence\\sample-menu-project.persistence.csproj|solutionrelative:sample-menu-project.persistence\\sample-menu-project.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60DCF17C-9EF9-446B-B371-A21CD26ACF49}|sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60DCF17C-9EF9-446B-B371-A21CD26ACF49}|sample-menu-project.infrastructure\\sample-menu-project.infrastructure.csproj|solutionrelative:sample-menu-project.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}|sample-menu-project.common\\sample-menu-project.common.csproj|c:\\users\\javad\\documents\\myprojects\\sample-menu-project\\sample-menu-project.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D3234BB-2BAE-49C0-99B8-B5E55FD1D0C4}|sample-menu-project.common\\sample-menu-project.common.csproj|solutionrelative:sample-menu-project.common\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sample-menu-project.persistence",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+              "RelativeDocumentMoniker": "sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+              "RelativeToolTip": "sample-menu-project.persistence\\sample-menu-project.persistence.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-05T10:30:57.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetCategoryById.cs",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.application\\services\\category\\GetCategoryById.cs",
+              "RelativeDocumentMoniker": "sample-menu-project.application\\services\\category\\GetCategoryById.cs",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.application\\services\\category\\GetCategoryById.cs",
+              "RelativeToolTip": "sample-menu-project.application\\services\\category\\GetCategoryById.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAABwBAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T10:30:40.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\entites\\Category.cs",
+              "RelativeDocumentMoniker": "sample-menu-project.domain\\entites\\Category.cs",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\entites\\Category.cs",
+              "RelativeToolTip": "sample-menu-project.domain\\entites\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T10:29:07.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sample-menu-project.domain",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj",
+              "RelativeDocumentMoniker": "sample-menu-project.domain\\sample-menu-project.domain.csproj",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.domain\\sample-menu-project.domain.csproj",
+              "RelativeToolTip": "sample-menu-project.domain\\sample-menu-project.domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-05T10:28:27.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "sample-menu-project.infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.infrastructure\\Class1.cs",
+              "RelativeToolTip": "sample-menu-project.infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T10:26:27.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.common\\Class1.cs",
+              "RelativeDocumentMoniker": "sample-menu-project.common\\Class1.cs",
+              "ToolTip": "C:\\Users\\Javad\\Documents\\myprojects\\sample-menu-project\\sample-menu-project.common\\Class1.cs",
+              "RelativeToolTip": "sample-menu-project.common\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T10:25:42.121Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
